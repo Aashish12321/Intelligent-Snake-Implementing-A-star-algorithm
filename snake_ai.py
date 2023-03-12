@@ -27,6 +27,7 @@ class Node(object):
             return False
         return self.f == other.f
 
+
 # A* Algorithm Applied AI
 class SnakeAI(object):
     def __init__(self, direction):
