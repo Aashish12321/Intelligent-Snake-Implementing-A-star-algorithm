@@ -187,7 +187,7 @@ def makeText(font, text, color, bgcolor, x, y):
 
 def showTitle():
     font = pygame.font.Font('freesansbold.ttf', 25)
-    text = ('Classic Snake Game')
+    text = ('Classic Snake Game (Manual)')
     x = (MARGIN + SCREEN_SIZE) // 2
     y = 35
     return makeText(font, text, BLACK, BGCOLOR, x, y)

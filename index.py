@@ -14,7 +14,7 @@ FOODCOLOR = (0,255,255)
 BGCOLOR = (204,255,153)
 SCREENCOLOR = (250, 243, 243)
 
-FPS = 20
+FPS = 10
 
 WINDOW_WIDTH = 520
 WINDOW_HEIGHT = 600
@@ -197,7 +197,7 @@ def makeText(font, text, color, bgcolor, x, y):
 # function to display a title
 def showTitle():
     font = pygame.font.Font('freesansbold.ttf', 25)
-    text = ('Python using Python')
+    text = ('Intelligent Snake Implementing A*')
     x = (MARGIN + SCREEN_SIZE) // 2
     y = 35
     return makeText(font, text, BLACK, BGCOLOR, x, y)
